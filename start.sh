@@ -41,4 +41,4 @@ fi
 
 cat "$CONFFILE"
 
-exec uwsgi --ini /uwsgi.ini
+exec uwsgi --ini /uwsgi.ini --die-on-term
